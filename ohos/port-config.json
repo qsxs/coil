@@ -1,0 +1,399 @@
+{
+  "schemaVersion": 1,
+  "modules": {
+    "coil-core": {
+      "sourceRoots": {
+        "commonMain": {
+          "root": "commonMain",
+          "includes": [
+            "**/*.kt"
+          ]
+        },
+        "nonAndroidMain": {
+          "root": "nonAndroidMain",
+          "includes": [
+            "**/*.kt"
+          ]
+        },
+        "nonJsCommonMain": {
+          "root": "nonJsCommonMain",
+          "includes": [
+            "**/*.kt"
+          ]
+        },
+        "nonJvmCommonMain": {
+          "root": "nonJvmCommonMain",
+          "includes": [
+            "**/*.kt"
+          ]
+        },
+        "ohosMain": {
+          "root": "ohosArm64Main",
+          "includes": [
+            "coil3/RealImageLoader.ohosArm64.kt",
+            "coil3/decode/OhosNativeDmaDecoder.kt",
+            "coil3/util/utils.ohosArm64.kt"
+          ]
+        }
+      },
+      "sourceSetParents": {
+        "commonMain": [],
+        "nonAndroidMain": [
+          "commonMain"
+        ],
+        "nonJsCommonMain": [
+          "nonAndroidMain"
+        ],
+        "nonJvmCommonMain": [
+          "nonAndroidMain"
+        ],
+        "nativeMain": [
+          "nonJsCommonMain",
+          "nonJvmCommonMain"
+        ],
+        "ohosMain": [
+          "nativeMain"
+        ],
+        "ohosX64Main": [
+          "ohosMain"
+        ],
+        "ohosArm64Main": [
+          "ohosMain"
+        ]
+      },
+      "kotlinFiles": 93,
+      "kotlinBytes": 251584,
+      "composeCompiler": false,
+      "projectApiDependencies": [],
+      "dependencies": {
+        "commonMain": {
+          "api": [
+            "org.jetbrains.kotlinx:kotlinx-coroutines-core",
+            "com.squareup.okio:okio"
+          ],
+          "implementation": [
+            "org.jetbrains.kotlinx:atomicfu"
+          ]
+        },
+        "nonAndroidMain": {
+          "api": [
+            "org.jetbrains.skiko:skiko",
+            "org.jetbrains.compose.ui:ui"
+          ]
+        }
+      },
+      "pokoCompiler": true
+    },
+    "coil-compose-core": {
+      "sourceRoots": {
+        "commonMain": {
+          "root": "commonMain",
+          "includes": [
+            "**/*.kt"
+          ]
+        },
+        "nonAndroidMain": {
+          "root": "nonAndroidMain",
+          "includes": [
+            "**/*.kt"
+          ]
+        }
+      },
+      "sourceSetParents": {
+        "commonMain": [],
+        "nonAndroidMain": [
+          "commonMain"
+        ],
+        "ohosMain": [
+          "nonAndroidMain"
+        ],
+        "ohosX64Main": [
+          "ohosMain"
+        ],
+        "ohosArm64Main": [
+          "ohosMain"
+        ]
+      },
+      "kotlinFiles": 18,
+      "kotlinBytes": 85774,
+      "composeCompiler": true,
+      "projectApiDependencies": [
+        "coil-core"
+      ],
+      "dependencies": {
+        "commonMain": {
+          "api": [
+            "org.jetbrains.compose.foundation:foundation"
+          ],
+          "implementation": [
+            "org.jetbrains.kotlinx:atomicfu"
+          ]
+        }
+      },
+      "pokoCompiler": true
+    },
+    "coil-network-core": {
+      "sourceRoots": {
+        "commonMain": {
+          "root": "commonMain",
+          "includes": [
+            "**/*.kt"
+          ]
+        },
+        "nonAndroidMain": {
+          "root": "nonAndroidMain",
+          "includes": [
+            "**/*.kt"
+          ]
+        }
+      },
+      "sourceSetParents": {
+        "commonMain": [],
+        "nonAndroidMain": [
+          "commonMain"
+        ],
+        "ohosMain": [
+          "nonAndroidMain"
+        ],
+        "ohosX64Main": [
+          "ohosMain"
+        ],
+        "ohosArm64Main": [
+          "ohosMain"
+        ]
+      },
+      "kotlinFiles": 12,
+      "kotlinBytes": 28825,
+      "composeCompiler": false,
+      "projectApiDependencies": [
+        "coil-core"
+      ],
+      "dependencies": {
+        "commonMain": {
+          "implementation": [
+            "org.jetbrains.kotlinx:atomicfu"
+          ]
+        }
+      },
+      "pokoCompiler": true
+    },
+    "coil-compose": {
+      "sourceRoots": {
+        "commonMain": {
+          "root": "commonMain",
+          "includes": [
+            "**/*.kt"
+          ]
+        }
+      },
+      "sourceSetParents": {
+        "commonMain": [],
+        "ohosMain": [
+          "commonMain"
+        ],
+        "ohosX64Main": [
+          "ohosMain"
+        ],
+        "ohosArm64Main": [
+          "ohosMain"
+        ]
+      },
+      "kotlinFiles": 4,
+      "kotlinBytes": 17604,
+      "composeCompiler": true,
+      "projectApiDependencies": [
+        "coil",
+        "coil-compose-core"
+      ],
+      "pokoCompiler": false
+    },
+    "coil": {
+      "sourceRoots": {
+        "commonMain": {
+          "root": "commonMain",
+          "includes": [
+            "**/*.kt"
+          ]
+        },
+        "nonAndroidMain": {
+          "root": "nonAndroidMain",
+          "includes": [
+            "**/*.kt"
+          ]
+        }
+      },
+      "sourceSetParents": {
+        "commonMain": [],
+        "nonAndroidMain": [
+          "commonMain"
+        ],
+        "ohosMain": [
+          "nonAndroidMain"
+        ],
+        "ohosX64Main": [
+          "ohosMain"
+        ],
+        "ohosArm64Main": [
+          "ohosMain"
+        ]
+      },
+      "kotlinFiles": 2,
+      "kotlinBytes": 4493,
+      "composeCompiler": false,
+      "projectApiDependencies": [
+        "coil-core"
+      ],
+      "dependencies": {
+        "commonMain": {
+          "implementation": [
+            "org.jetbrains.kotlinx:atomicfu"
+          ]
+        }
+      },
+      "pokoCompiler": false
+    },
+    "coil-network-ktor3": {
+      "sourceRoots": {
+        "commonMain": {
+          "root": "commonMain",
+          "includes": [
+            "**/*.kt"
+          ]
+        },
+        "nonJvmCommonMain": {
+          "root": "nonJvmCommonMain",
+          "includes": [
+            "**/*.kt"
+          ]
+        },
+        "ohosMain": {
+          "root": "ohosArm64Main",
+          "includes": [
+            "coil3/network/ktor3/internal/KtorNetworkFetcherServiceLoaderTarget.ohosArm64.kt"
+          ]
+        }
+      },
+      "sourceSetParents": {
+        "commonMain": [],
+        "nonJvmCommonMain": [
+          "commonMain"
+        ],
+        "ohosMain": [
+          "nonJvmCommonMain"
+        ],
+        "ohosX64Main": [
+          "ohosMain"
+        ],
+        "ohosArm64Main": [
+          "ohosMain"
+        ]
+      },
+      "kotlinFiles": 5,
+      "kotlinBytes": 5735,
+      "composeCompiler": false,
+      "projectApiDependencies": [
+        "coil-core",
+        "coil-network-core"
+      ],
+      "dependencies": {
+        "commonMain": {
+          "api": [
+            "io.ktor:ktor-client-core"
+          ],
+          "implementation": [
+            "org.jetbrains.kotlinx:kotlinx-io-okio"
+          ]
+        }
+      },
+      "pokoCompiler": false
+    },
+    "coil-svg": {
+      "sourceRoots": {
+        "commonMain": {
+          "root": "commonMain",
+          "includes": [
+            "**/*.kt"
+          ]
+        },
+        "nativeMain": {
+          "root": "nativeMain",
+          "includes": [
+            "**/*.kt"
+          ]
+        },
+        "nonAndroidMain": {
+          "root": "nonAndroidMain",
+          "includes": [
+            "**/*.kt"
+          ]
+        },
+        "nonJvmCommonMain": {
+          "root": "nonJvmCommonMain",
+          "includes": [
+            "**/*.kt"
+          ]
+        }
+      },
+      "sourceSetParents": {
+        "commonMain": [],
+        "nonAndroidMain": [
+          "commonMain"
+        ],
+        "nonJvmCommonMain": [
+          "nonAndroidMain"
+        ],
+        "nativeMain": [
+          "nonJvmCommonMain"
+        ],
+        "ohosMain": [
+          "nativeMain"
+        ],
+        "ohosX64Main": [
+          "ohosMain"
+        ],
+        "ohosArm64Main": [
+          "ohosMain"
+        ]
+      },
+      "kotlinFiles": 11,
+      "kotlinBytes": 13111,
+      "composeCompiler": false,
+      "projectApiDependencies": [
+        "coil-core"
+      ],
+      "dependencies": {
+        "nonAndroidMain": {
+          "implementation": [
+            "org.jetbrains.skiko:skiko"
+          ]
+        }
+      },
+      "pokoCompiler": true
+    }
+  },
+  "sourceVariant": "OHOS_IMAGELOADERS_JVMNAME_REMOVAL_V1",
+  "kotlin": "2.4.20-0.1.0-08",
+  "compilerOptIns": [
+    "coil3.annotation.InternalCoilApi"
+  ],
+  "publicationPom": {
+    "licenseName": "The Apache License, Version 2.0",
+    "licenseUrl": "https://www.apache.org/licenses/LICENSE-2.0.txt",
+    "licenseDistribution": "repo",
+    "scmConnection": "scm:git:git://github.com/coil-kt/coil.git",
+    "scmDeveloperConnection": "scm:git:ssh://git@github.com/coil-kt/coil.git",
+    "scmUrl": "https://github.com/coil-kt/coil"
+  },
+  "group": "io.github.qsxs.cpf.coil",
+  "poko": {
+    "pluginId": "dev.drewhamilton.poko",
+    "version": "0.23.2",
+    "annotation": "coil3/annotation/Poko",
+    "modules": {
+      "coil-core": 13,
+      "coil-compose-core": 2,
+      "coil-network-core": 3,
+      "coil-svg": 1
+    }
+  }
+}

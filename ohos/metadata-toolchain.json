@@ -1,0 +1,28 @@
+{
+  "producer": "COMMON_METADATA_CLI_COMPILE",
+  "mainClass": "org.jetbrains.kotlin.cli.metadata.KotlinMetadataCompiler",
+  "targetPlatform": "Native",
+  "compilerVersion": "2.4.20-0.1.0-08",
+  "launcherPomUrl": "https://maven.eazytec-cloud.com/nexus/repository/maven-develop/org/jetbrains/kotlin/kotlin-compiler-embeddable/2.4.20-0.1.0-08/kotlin-compiler-embeddable-2.4.20-0.1.0-08.pom",
+  "launcherPomSha256": "448c9621d4b0a4f03b446f0fbacfdad0b7d5bba7f028c60e65a5b88f7a8a83cb",
+  "launcherPins": {
+    "org.jetbrains.kotlin:kotlin-compiler-embeddable": "2.4.20-0.1.0-08",
+    "org.jetbrains.kotlin:kotlin-build-tools-api": "2.4.20-0.1.0-08",
+    "org.jetbrains.kotlin:kotlin-stdlib": "2.4.20-0.1.0-08",
+    "org.jetbrains.kotlin:kotlin-script-runtime": "2.4.20-0.1.0-08",
+    "org.jetbrains.kotlin:kotlin-reflect": "1.6.10",
+    "org.jetbrains.kotlin:kotlin-daemon-embeddable": "2.4.20-0.1.0-08",
+    "org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm": "1.8.0",
+    "org.jetbrains:annotations": "13.0"
+  },
+  "launcherArtifacts": {
+    "org.jetbrains.kotlin:kotlin-compiler-embeddable": {"sha256": "95b0a5de08917b9ad8065df1d4e30262a779b0863c26fbddbdf9ec41e5a35cf6", "size": 58620712},
+    "org.jetbrains.kotlin:kotlin-build-tools-api": {"sha256": "0573955df509866a45469bc78c76704fd54315a9027609a2dbe0b8027abb4266", "size": 468283},
+    "org.jetbrains.kotlin:kotlin-stdlib": {"sha256": "c2bc31023f6e93219c4aa39a358aa7caeeef7c9addbecfed9ad959f68d9db250", "size": 1853392},
+    "org.jetbrains.kotlin:kotlin-script-runtime": {"sha256": "1a040207c69fe0b7accb8e70577cd74c83af14a032ccf1c2978b8547ac04f87a", "size": 46538},
+    "org.jetbrains.kotlin:kotlin-reflect": {"sha256": "3277ac102ae17aad10a55abec75ff5696c8d109790396434b496e75087854203", "size": 3038560},
+    "org.jetbrains.kotlin:kotlin-daemon-embeddable": {"sha256": "b97441a51c100056a7d3e5cf374f69bbeff799a41cfbbc148307b748369db4d5", "size": 393417},
+    "org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm": {"sha256": "9860906a1937490bf5f3b06d2f0e10ef451e65b95b269f22daf68a3d1f5065c5", "size": 1548360},
+    "org.jetbrains:annotations": {"sha256": "ace2a10dc8e2d5fd34925ecac03e4988b2c0f851650c94b8cef49ba1bd111478", "size": 17536}
+  }
+}
