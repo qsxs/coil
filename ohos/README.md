@@ -34,3 +34,35 @@ python3 -B ohos/Build.py --source-sha "$SOURCE_SHA" --run-id "$RUN_ID" \
 
 独立编译不等同设备运行。原 P3 的 x64 运行结果属于原制品；新制品的链接、设备运行、
 ARM64 真机和 Android/iOS 回归必须分别验证。迁仓不改变主工程当前依赖。
+
+## CPF 源码对照和后续维护
+
+[CPF 官方 main-3.3.0-OH](https://gitcode.com/CPF-KMP-CMP/coil/tree/main-3.3.0-OH) 的
+固定提交 `bfa7e50a18875b75b66c3879408c84916aec9f3c` 与 CPF 发布源码包所选 145 份原始
+Kotlin 文件的 Git blob 全部一致，逐项记录在 `provenance/cpf-source-comparison.json`。
+这不证明当初的发布包由该提交构建，原始制品的构建提交仍记为 UNKNOWN。构建额外应用的
+`@file:JvmName` 删除只作用于已批准的鸿蒙覆盖。
+
+后续上游或 CPF 有更新时，先比较 `source-inputs.json` 与两个固定来源，审查鸿蒙覆盖和 API
+差异，再更新源码映射、依赖锁及版本，重新构建和验收；不可把旧来源哈希或旧设备结果当成
+新版本的证据。现有 Fork 保留历史源码快照，独立构建使用当前提交中的上游文件和明确覆盖。
+可在克隆仓中将 `https://github.com/coil-kt/coil.git` 配为 `upstream`，将
+`https://gitcode.com/CPF-KMP-CMP/coil.git` 配为 `cpf`；按需 fetch 对比，未经验证不要假定
+两边提交历史相同，也不要把 CPF 当前分支 SHA 冒认为旧 Maven 包的构建提交。
+
+## 独立预览制品
+
+第四轮 [producer 40997275438/1](https://github.com/qsxs/cpf-port-tooling/actions/runs/40997275438/attempts/1)
+针对 source `0e0e3189f9205c57f82efd96065211ceb333f205` 完成七模块 metadata 和双 ABI 编译、
+发布及配方校验。独立审查核对 21 个发布组件、665 个文件、435 个源码包成员和 542 个 KLIB 成员；
+云端编译器实际读取的所有物理输入未逐一独立复哈。临时 Maven 地址为
+`https://qsxs.github.io/cpf-maven/`，预览版本为
+`3.3.0-cpf11-preview-0e0e3189f920-40997275438-1`，七个模块使用该同一版本。
+
+[匿名 consumer 41000005970/1](https://github.com/qsxs/cpf-port-tooling/actions/runs/41000005970/attempts/1)
+使用 Gradle 9.5.0 和 Skia，只直接声明 compose、network-ktor3、svg 三个模块并传递解析全部七模块。
+21 份公开 GMM 与 staging 一致，metadata、x64 和 ARM64 consumer 任务实际执行；两个 Native 编译器
+各自读取的 7 个 KLIB 与公开制品摘要一致。证据 ZIP 不含 consumer 输出二进制，不可在本机独立复哈。
+
+该验证不包含新制品的最终链接、设备运行、ARM64 真机、Gradle 8.11.1 consumer 或 Android/iOS
+回归；旧 P3 的 x64 模拟器记录只针对旧制品。主工程引用尚未切换。

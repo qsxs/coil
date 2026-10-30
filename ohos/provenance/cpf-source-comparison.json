@@ -1,0 +1,1041 @@
+{
+  "cpfHead": "bfa7e50a18875b75b66c3879408c84916aec9f3c",
+  "modules": {
+    "coil": "743e4ecf99ad70f2dc2b03a4d5ae1e241cec01e8",
+    "coil-compose": "047163c43fb713d7888bbe283189d297af44a70b",
+    "coil-compose-core": "59090311805063d86c7bdc09e471c9fe9837605d",
+    "coil-core": "0d3e99a4e4ab83fd5dd78707ff7744a8d047199d",
+    "coil-network-core": "a17e4c0dc83543048729e401c2a45b1c69503b8c",
+    "coil-network-ktor3": "f2f47317b7a31d28d0746171bf4ece298aa9b24a",
+    "coil-svg": "83aa4561329de0553f83cdbd4974daf280db6659"
+  },
+  "pages": {
+    "coil": 1,
+    "coil-compose": 1,
+    "coil-compose-core": 1,
+    "coil-core": 4,
+    "coil-network-core": 1,
+    "coil-network-ktor3": 1,
+    "coil-svg": 2
+  },
+  "matched": [
+    {
+      "module": "coil-core",
+      "entry": "commonMain/coil3/ColorImage.kt",
+      "cpfPath": "coil-core/src/commonMain/kotlin/coil3/ColorImage.kt",
+      "rawGitBlob": "8d0d982d37c2a509ff74c80b51f7fd993df6930b",
+      "cpfBlob": "8d0d982d37c2a509ff74c80b51f7fd993df6930b"
+    },
+    {
+      "module": "coil-core",
+      "entry": "commonMain/coil3/ComponentRegistry.kt",
+      "cpfPath": "coil-core/src/commonMain/kotlin/coil3/ComponentRegistry.kt",
+      "rawGitBlob": "da42071c72a52126e19e9484843b914475ab2565",
+      "cpfBlob": "da42071c72a52126e19e9484843b914475ab2565"
+    },
+    {
+      "module": "coil-core",
+      "entry": "commonMain/coil3/EventListener.kt",
+      "cpfPath": "coil-core/src/commonMain/kotlin/coil3/EventListener.kt",
+      "rawGitBlob": "c1848fbcd8073055f23759101e521314c43f3eff",
+      "cpfBlob": "c1848fbcd8073055f23759101e521314c43f3eff"
+    },
+    {
+      "module": "coil-core",
+      "entry": "commonMain/coil3/Extras.kt",
+      "cpfPath": "coil-core/src/commonMain/kotlin/coil3/Extras.kt",
+      "rawGitBlob": "e65a10e383652167630cca68c367708cfc057342",
+      "cpfBlob": "e65a10e383652167630cca68c367708cfc057342"
+    },
+    {
+      "module": "coil-core",
+      "entry": "commonMain/coil3/Image.kt",
+      "cpfPath": "coil-core/src/commonMain/kotlin/coil3/Image.kt",
+      "rawGitBlob": "8af83857f3fd60555e0726c5a5d3002724ea6fee",
+      "cpfBlob": "8af83857f3fd60555e0726c5a5d3002724ea6fee"
+    },
+    {
+      "module": "coil-core",
+      "entry": "commonMain/coil3/ImageLoader.kt",
+      "cpfPath": "coil-core/src/commonMain/kotlin/coil3/ImageLoader.kt",
+      "rawGitBlob": "62b71e40d019104f4bfd74051a983025e1741c79",
+      "cpfBlob": "62b71e40d019104f4bfd74051a983025e1741c79"
+    },
+    {
+      "module": "coil-core",
+      "entry": "commonMain/coil3/PlatformContext.kt",
+      "cpfPath": "coil-core/src/commonMain/kotlin/coil3/PlatformContext.kt",
+      "rawGitBlob": "246f9132c77b9374801f19d4b564f7eb751534e2",
+      "cpfBlob": "246f9132c77b9374801f19d4b564f7eb751534e2"
+    },
+    {
+      "module": "coil-core",
+      "entry": "commonMain/coil3/RealImageLoader.kt",
+      "cpfPath": "coil-core/src/commonMain/kotlin/coil3/RealImageLoader.kt",
+      "rawGitBlob": "bc40f3e7a1fe9b1cc54eae17989cedfc4e881314",
+      "cpfBlob": "bc40f3e7a1fe9b1cc54eae17989cedfc4e881314"
+    },
+    {
+      "module": "coil-core",
+      "entry": "commonMain/coil3/Uri.kt",
+      "cpfPath": "coil-core/src/commonMain/kotlin/coil3/Uri.kt",
+      "rawGitBlob": "7661b9d6def1388ecdaa6db7029ba90a99a48148",
+      "cpfBlob": "7661b9d6def1388ecdaa6db7029ba90a99a48148"
+    },
+    {
+      "module": "coil-core",
+      "entry": "commonMain/coil3/annotation/annotations.kt",
+      "cpfPath": "coil-core/src/commonMain/kotlin/coil3/annotation/annotations.kt",
+      "rawGitBlob": "ce89146d1e1e72e2466771105c2888a6c4782c9e",
+      "cpfBlob": "ce89146d1e1e72e2466771105c2888a6c4782c9e"
+    },
+    {
+      "module": "coil-core",
+      "entry": "commonMain/coil3/decode/BlackholeDecoder.kt",
+      "cpfPath": "coil-core/src/commonMain/kotlin/coil3/decode/BlackholeDecoder.kt",
+      "rawGitBlob": "b47aad65b687966ce998f66e5862ba73eb62408b",
+      "cpfBlob": "b47aad65b687966ce998f66e5862ba73eb62408b"
+    },
+    {
+      "module": "coil-core",
+      "entry": "commonMain/coil3/decode/DataSource.kt",
+      "cpfPath": "coil-core/src/commonMain/kotlin/coil3/decode/DataSource.kt",
+      "rawGitBlob": "a5b4f45e531159439f1db27217b3a3e3f7dcf920",
+      "cpfBlob": "a5b4f45e531159439f1db27217b3a3e3f7dcf920"
+    },
+    {
+      "module": "coil-core",
+      "entry": "commonMain/coil3/decode/DecodeResult.kt",
+      "cpfPath": "coil-core/src/commonMain/kotlin/coil3/decode/DecodeResult.kt",
+      "rawGitBlob": "2416ad0b9375a3ac9a9962db6b1150bf9a1e3770",
+      "cpfBlob": "2416ad0b9375a3ac9a9962db6b1150bf9a1e3770"
+    },
+    {
+      "module": "coil-core",
+      "entry": "commonMain/coil3/decode/DecodeUtils.kt",
+      "cpfPath": "coil-core/src/commonMain/kotlin/coil3/decode/DecodeUtils.kt",
+      "rawGitBlob": "010a2617b1dce1bafeb4ca86eef0f50dcd979d28",
+      "cpfBlob": "010a2617b1dce1bafeb4ca86eef0f50dcd979d28"
+    },
+    {
+      "module": "coil-core",
+      "entry": "commonMain/coil3/decode/Decoder.kt",
+      "cpfPath": "coil-core/src/commonMain/kotlin/coil3/decode/Decoder.kt",
+      "rawGitBlob": "7999d7267931872307e3fa490827e80b0600af90",
+      "cpfBlob": "7999d7267931872307e3fa490827e80b0600af90"
+    },
+    {
+      "module": "coil-core",
+      "entry": "commonMain/coil3/decode/ImageSource.kt",
+      "cpfPath": "coil-core/src/commonMain/kotlin/coil3/decode/ImageSource.kt",
+      "rawGitBlob": "8f4d1101466c9711db36f113c3b960baf2d948ea",
+      "cpfBlob": "8f4d1101466c9711db36f113c3b960baf2d948ea"
+    },
+    {
+      "module": "coil-core",
+      "entry": "commonMain/coil3/disk/DiskCache.kt",
+      "cpfPath": "coil-core/src/commonMain/kotlin/coil3/disk/DiskCache.kt",
+      "rawGitBlob": "d9f6e0a4c9adb82b3c45c6faa718d51ed4381e40",
+      "cpfBlob": "d9f6e0a4c9adb82b3c45c6faa718d51ed4381e40"
+    },
+    {
+      "module": "coil-core",
+      "entry": "commonMain/coil3/disk/DiskLruCache.kt",
+      "cpfPath": "coil-core/src/commonMain/kotlin/coil3/disk/DiskLruCache.kt",
+      "rawGitBlob": "e0a8bfbd664e50de025124e28c5dd72a9e9dce3c",
+      "cpfBlob": "e0a8bfbd664e50de025124e28c5dd72a9e9dce3c"
+    },
+    {
+      "module": "coil-core",
+      "entry": "commonMain/coil3/disk/FaultHidingSink.kt",
+      "cpfPath": "coil-core/src/commonMain/kotlin/coil3/disk/FaultHidingSink.kt",
+      "rawGitBlob": "b5604a66180cd015a144d1a5067b39bbe72ae7a5",
+      "cpfBlob": "b5604a66180cd015a144d1a5067b39bbe72ae7a5"
+    },
+    {
+      "module": "coil-core",
+      "entry": "commonMain/coil3/disk/RealDiskCache.kt",
+      "cpfPath": "coil-core/src/commonMain/kotlin/coil3/disk/RealDiskCache.kt",
+      "rawGitBlob": "f75f9dc602c2913595318242e7e5985e42b3311e",
+      "cpfBlob": "f75f9dc602c2913595318242e7e5985e42b3311e"
+    },
+    {
+      "module": "coil-core",
+      "entry": "commonMain/coil3/disk/utils.kt",
+      "cpfPath": "coil-core/src/commonMain/kotlin/coil3/disk/utils.kt",
+      "rawGitBlob": "4e617fde80170039556057fb50acfcf8a15af960",
+      "cpfBlob": "4e617fde80170039556057fb50acfcf8a15af960"
+    },
+    {
+      "module": "coil-core",
+      "entry": "commonMain/coil3/fetch/ByteArrayFetcher.kt",
+      "cpfPath": "coil-core/src/commonMain/kotlin/coil3/fetch/ByteArrayFetcher.kt",
+      "rawGitBlob": "97a18030a1645583dbd07272868fe9afededa256",
+      "cpfBlob": "97a18030a1645583dbd07272868fe9afededa256"
+    },
+    {
+      "module": "coil-core",
+      "entry": "commonMain/coil3/fetch/DataUriFetcher.kt",
+      "cpfPath": "coil-core/src/commonMain/kotlin/coil3/fetch/DataUriFetcher.kt",
+      "rawGitBlob": "add321dc12c5c0dbd6af8e640a15b23c256fc77c",
+      "cpfBlob": "add321dc12c5c0dbd6af8e640a15b23c256fc77c"
+    },
+    {
+      "module": "coil-core",
+      "entry": "commonMain/coil3/fetch/FetchResult.kt",
+      "cpfPath": "coil-core/src/commonMain/kotlin/coil3/fetch/FetchResult.kt",
+      "rawGitBlob": "3379565058eac1ba04d26c115a5e632287a0ef7a",
+      "cpfBlob": "3379565058eac1ba04d26c115a5e632287a0ef7a"
+    },
+    {
+      "module": "coil-core",
+      "entry": "commonMain/coil3/fetch/Fetcher.kt",
+      "cpfPath": "coil-core/src/commonMain/kotlin/coil3/fetch/Fetcher.kt",
+      "rawGitBlob": "3d10049f1aa14bfe5e6e3495bee6743425b9b963",
+      "cpfBlob": "3d10049f1aa14bfe5e6e3495bee6743425b9b963"
+    },
+    {
+      "module": "coil-core",
+      "entry": "commonMain/coil3/fetch/FileUriFetcher.kt",
+      "cpfPath": "coil-core/src/commonMain/kotlin/coil3/fetch/FileUriFetcher.kt",
+      "rawGitBlob": "de2e2ff5caeee98e37b3dd94bc47fabecb7d7e7c",
+      "cpfBlob": "de2e2ff5caeee98e37b3dd94bc47fabecb7d7e7c"
+    },
+    {
+      "module": "coil-core",
+      "entry": "commonMain/coil3/imageLoaders.kt",
+      "cpfPath": "coil-core/src/commonMain/kotlin/coil3/imageLoaders.kt",
+      "rawGitBlob": "7410398896fe087f8b459ec6c4de86cd3c369f6b",
+      "cpfBlob": "7410398896fe087f8b459ec6c4de86cd3c369f6b"
+    },
+    {
+      "module": "coil-core",
+      "entry": "commonMain/coil3/intercept/EngineInterceptor.kt",
+      "cpfPath": "coil-core/src/commonMain/kotlin/coil3/intercept/EngineInterceptor.kt",
+      "rawGitBlob": "60c82b6f1d3d5018d9f6e47963dd2fb94259fc8f",
+      "cpfBlob": "60c82b6f1d3d5018d9f6e47963dd2fb94259fc8f"
+    },
+    {
+      "module": "coil-core",
+      "entry": "commonMain/coil3/intercept/Interceptor.kt",
+      "cpfPath": "coil-core/src/commonMain/kotlin/coil3/intercept/Interceptor.kt",
+      "rawGitBlob": "d687bf7c7b0b8d680bd4737478d75bf42105b453",
+      "cpfBlob": "d687bf7c7b0b8d680bd4737478d75bf42105b453"
+    },
+    {
+      "module": "coil-core",
+      "entry": "commonMain/coil3/intercept/RealInterceptorChain.kt",
+      "cpfPath": "coil-core/src/commonMain/kotlin/coil3/intercept/RealInterceptorChain.kt",
+      "rawGitBlob": "743c4a58ff710f8a237e781d107b5cb832a8402f",
+      "cpfBlob": "743c4a58ff710f8a237e781d107b5cb832a8402f"
+    },
+    {
+      "module": "coil-core",
+      "entry": "commonMain/coil3/key/FileUriKeyer.kt",
+      "cpfPath": "coil-core/src/commonMain/kotlin/coil3/key/FileUriKeyer.kt",
+      "rawGitBlob": "7e10c52575104dd460521c93549520196e93281f",
+      "cpfBlob": "7e10c52575104dd460521c93549520196e93281f"
+    },
+    {
+      "module": "coil-core",
+      "entry": "commonMain/coil3/key/Keyer.kt",
+      "cpfPath": "coil-core/src/commonMain/kotlin/coil3/key/Keyer.kt",
+      "rawGitBlob": "128ac744e7f1603398c1feb77682bb75d8ab287f",
+      "cpfBlob": "128ac744e7f1603398c1feb77682bb75d8ab287f"
+    },
+    {
+      "module": "coil-core",
+      "entry": "commonMain/coil3/key/UriKeyer.kt",
+      "cpfPath": "coil-core/src/commonMain/kotlin/coil3/key/UriKeyer.kt",
+      "rawGitBlob": "1f4ffb5c29021fba8baee4d9b22b4b88ccf94b1d",
+      "cpfBlob": "1f4ffb5c29021fba8baee4d9b22b4b88ccf94b1d"
+    },
+    {
+      "module": "coil-core",
+      "entry": "commonMain/coil3/map/Mapper.kt",
+      "cpfPath": "coil-core/src/commonMain/kotlin/coil3/map/Mapper.kt",
+      "rawGitBlob": "da9902b173536c0995523723baad81723f8f604a",
+      "cpfBlob": "da9902b173536c0995523723baad81723f8f604a"
+    },
+    {
+      "module": "coil-core",
+      "entry": "commonMain/coil3/map/PathMapper.kt",
+      "cpfPath": "coil-core/src/commonMain/kotlin/coil3/map/PathMapper.kt",
+      "rawGitBlob": "d2b67988be3f475ef01d79e1f7d78f75143eb3a2",
+      "cpfBlob": "d2b67988be3f475ef01d79e1f7d78f75143eb3a2"
+    },
+    {
+      "module": "coil-core",
+      "entry": "commonMain/coil3/map/StringMapper.kt",
+      "cpfPath": "coil-core/src/commonMain/kotlin/coil3/map/StringMapper.kt",
+      "rawGitBlob": "4f1e1d9cbfad438c7797a5ae574b6ce7ec9be7f4",
+      "cpfBlob": "4f1e1d9cbfad438c7797a5ae574b6ce7ec9be7f4"
+    },
+    {
+      "module": "coil-core",
+      "entry": "commonMain/coil3/memory/MemoryCache.kt",
+      "cpfPath": "coil-core/src/commonMain/kotlin/coil3/memory/MemoryCache.kt",
+      "rawGitBlob": "83f44f48c67291ba3c80fcf165eda58e05cb3d7e",
+      "cpfBlob": "83f44f48c67291ba3c80fcf165eda58e05cb3d7e"
+    },
+    {
+      "module": "coil-core",
+      "entry": "commonMain/coil3/memory/MemoryCacheService.kt",
+      "cpfPath": "coil-core/src/commonMain/kotlin/coil3/memory/MemoryCacheService.kt",
+      "rawGitBlob": "9fa316abb03f2b636b4c45dd2cf3b10d972462a3",
+      "cpfBlob": "9fa316abb03f2b636b4c45dd2cf3b10d972462a3"
+    },
+    {
+      "module": "coil-core",
+      "entry": "commonMain/coil3/memory/RealMemoryCache.kt",
+      "cpfPath": "coil-core/src/commonMain/kotlin/coil3/memory/RealMemoryCache.kt",
+      "rawGitBlob": "0d3a7128dd56f878618de804b888a467916958c6",
+      "cpfBlob": "0d3a7128dd56f878618de804b888a467916958c6"
+    },
+    {
+      "module": "coil-core",
+      "entry": "commonMain/coil3/memory/StrongMemoryCache.kt",
+      "cpfPath": "coil-core/src/commonMain/kotlin/coil3/memory/StrongMemoryCache.kt",
+      "rawGitBlob": "05d1ee5272b78b3590de7b4c5b5dbedb3e8be32b",
+      "cpfBlob": "05d1ee5272b78b3590de7b4c5b5dbedb3e8be32b"
+    },
+    {
+      "module": "coil-core",
+      "entry": "commonMain/coil3/memory/WeakMemoryCache.kt",
+      "cpfPath": "coil-core/src/commonMain/kotlin/coil3/memory/WeakMemoryCache.kt",
+      "rawGitBlob": "695c565c2c913e82a09c64101b2ab94e0a9b049b",
+      "cpfBlob": "695c565c2c913e82a09c64101b2ab94e0a9b049b"
+    },
+    {
+      "module": "coil-core",
+      "entry": "commonMain/coil3/request/CachePolicy.kt",
+      "cpfPath": "coil-core/src/commonMain/kotlin/coil3/request/CachePolicy.kt",
+      "rawGitBlob": "020665d5a43581ee65394dabd41e1c81e34d3767",
+      "cpfBlob": "020665d5a43581ee65394dabd41e1c81e34d3767"
+    },
+    {
+      "module": "coil-core",
+      "entry": "commonMain/coil3/request/Disposable.kt",
+      "cpfPath": "coil-core/src/commonMain/kotlin/coil3/request/Disposable.kt",
+      "rawGitBlob": "f65aa69538b51a1656e7b8fcf1afe6726c53c7cd",
+      "cpfBlob": "f65aa69538b51a1656e7b8fcf1afe6726c53c7cd"
+    },
+    {
+      "module": "coil-core",
+      "entry": "commonMain/coil3/request/ImageRequest.kt",
+      "cpfPath": "coil-core/src/commonMain/kotlin/coil3/request/ImageRequest.kt",
+      "rawGitBlob": "4eab434371f62a8eafe05212be07edba03907d3e",
+      "cpfBlob": "4eab434371f62a8eafe05212be07edba03907d3e"
+    },
+    {
+      "module": "coil-core",
+      "entry": "commonMain/coil3/request/ImageResult.kt",
+      "cpfPath": "coil-core/src/commonMain/kotlin/coil3/request/ImageResult.kt",
+      "rawGitBlob": "1510a5b5cb9bd1215e037d492dbaa1631c663da8",
+      "cpfBlob": "1510a5b5cb9bd1215e037d492dbaa1631c663da8"
+    },
+    {
+      "module": "coil-core",
+      "entry": "commonMain/coil3/request/NullRequestData.kt",
+      "cpfPath": "coil-core/src/commonMain/kotlin/coil3/request/NullRequestData.kt",
+      "rawGitBlob": "6cbfbda298354d7234870445e3492d49be25dd31",
+      "cpfBlob": "6cbfbda298354d7234870445e3492d49be25dd31"
+    },
+    {
+      "module": "coil-core",
+      "entry": "commonMain/coil3/request/NullRequestDataException.kt",
+      "cpfPath": "coil-core/src/commonMain/kotlin/coil3/request/NullRequestDataException.kt",
+      "rawGitBlob": "c30a5d1acb92d86151155f78b78c57102f6f932e",
+      "cpfBlob": "c30a5d1acb92d86151155f78b78c57102f6f932e"
+    },
+    {
+      "module": "coil-core",
+      "entry": "commonMain/coil3/request/Options.kt",
+      "cpfPath": "coil-core/src/commonMain/kotlin/coil3/request/Options.kt",
+      "rawGitBlob": "d88151282d4644ecff884307e818bc9276d2e270",
+      "cpfBlob": "d88151282d4644ecff884307e818bc9276d2e270"
+    },
+    {
+      "module": "coil-core",
+      "entry": "commonMain/coil3/request/RequestDelegate.kt",
+      "cpfPath": "coil-core/src/commonMain/kotlin/coil3/request/RequestDelegate.kt",
+      "rawGitBlob": "0e1696ad5abe579c0570fb0bc8dffdc156881ee7",
+      "cpfBlob": "0e1696ad5abe579c0570fb0bc8dffdc156881ee7"
+    },
+    {
+      "module": "coil-core",
+      "entry": "commonMain/coil3/request/RequestService.kt",
+      "cpfPath": "coil-core/src/commonMain/kotlin/coil3/request/RequestService.kt",
+      "rawGitBlob": "7ab2591267245af30696c224ab0e53ebb6d12565",
+      "cpfBlob": "7ab2591267245af30696c224ab0e53ebb6d12565"
+    },
+    {
+      "module": "coil-core",
+      "entry": "commonMain/coil3/request/imageRequests.kt",
+      "cpfPath": "coil-core/src/commonMain/kotlin/coil3/request/imageRequests.kt",
+      "rawGitBlob": "fc336c6bf8e281531f095f58a2aff0ed9a2cef9b",
+      "cpfBlob": "fc336c6bf8e281531f095f58a2aff0ed9a2cef9b"
+    },
+    {
+      "module": "coil-core",
+      "entry": "commonMain/coil3/size/Dimension.kt",
+      "cpfPath": "coil-core/src/commonMain/kotlin/coil3/size/Dimension.kt",
+      "rawGitBlob": "82e9153ecd75c93380c06b881afa4220629c3bef",
+      "cpfBlob": "82e9153ecd75c93380c06b881afa4220629c3bef"
+    },
+    {
+      "module": "coil-core",
+      "entry": "commonMain/coil3/size/Precision.kt",
+      "cpfPath": "coil-core/src/commonMain/kotlin/coil3/size/Precision.kt",
+      "rawGitBlob": "6e1146e55886b07cb6e407382dbdf12e0f840a38",
+      "cpfBlob": "6e1146e55886b07cb6e407382dbdf12e0f840a38"
+    },
+    {
+      "module": "coil-core",
+      "entry": "commonMain/coil3/size/RealSizeResolver.kt",
+      "cpfPath": "coil-core/src/commonMain/kotlin/coil3/size/RealSizeResolver.kt",
+      "rawGitBlob": "140c01c55eb47e89cc47178168a6f3515460b4bc",
+      "cpfBlob": "140c01c55eb47e89cc47178168a6f3515460b4bc"
+    },
+    {
+      "module": "coil-core",
+      "entry": "commonMain/coil3/size/Scale.kt",
+      "cpfPath": "coil-core/src/commonMain/kotlin/coil3/size/Scale.kt",
+      "rawGitBlob": "fe3336ecf5c492b84c28d52fee93e4e5da29653e",
+      "cpfBlob": "fe3336ecf5c492b84c28d52fee93e4e5da29653e"
+    },
+    {
+      "module": "coil-core",
+      "entry": "commonMain/coil3/size/Size.kt",
+      "cpfPath": "coil-core/src/commonMain/kotlin/coil3/size/Size.kt",
+      "rawGitBlob": "e14688272836ef0fe01632b9f7fa2ea34c7e4885",
+      "cpfBlob": "e14688272836ef0fe01632b9f7fa2ea34c7e4885"
+    },
+    {
+      "module": "coil-core",
+      "entry": "commonMain/coil3/size/SizeResolver.kt",
+      "cpfPath": "coil-core/src/commonMain/kotlin/coil3/size/SizeResolver.kt",
+      "rawGitBlob": "09243bc29a19c9007428d8e47d0045ff44985111",
+      "cpfBlob": "09243bc29a19c9007428d8e47d0045ff44985111"
+    },
+    {
+      "module": "coil-core",
+      "entry": "commonMain/coil3/target/Target.kt",
+      "cpfPath": "coil-core/src/commonMain/kotlin/coil3/target/Target.kt",
+      "rawGitBlob": "2ef9fefd4bb5f00ad4ab536141d771e28e03269e",
+      "cpfBlob": "2ef9fefd4bb5f00ad4ab536141d771e28e03269e"
+    },
+    {
+      "module": "coil-core",
+      "entry": "commonMain/coil3/transform/Transformation.kt",
+      "cpfPath": "coil-core/src/commonMain/kotlin/coil3/transform/Transformation.kt",
+      "rawGitBlob": "cad90dcb8f647e977aa1f5a18de7d6e65e4f674e",
+      "cpfBlob": "cad90dcb8f647e977aa1f5a18de7d6e65e4f674e"
+    },
+    {
+      "module": "coil-core",
+      "entry": "commonMain/coil3/util/LruCache.kt",
+      "cpfPath": "coil-core/src/commonMain/kotlin/coil3/util/LruCache.kt",
+      "rawGitBlob": "b794c8773c8544fb7003bc1ba1b7b7334e937cb8",
+      "cpfBlob": "b794c8773c8544fb7003bc1ba1b7b7334e937cb8"
+    },
+    {
+      "module": "coil-core",
+      "entry": "commonMain/coil3/util/ServiceLoaderComponentRegistry.kt",
+      "cpfPath": "coil-core/src/commonMain/kotlin/coil3/util/ServiceLoaderComponentRegistry.kt",
+      "rawGitBlob": "c923b9985aa0f96a870222a01f5d63b98f1bc58d",
+      "cpfBlob": "c923b9985aa0f96a870222a01f5d63b98f1bc58d"
+    },
+    {
+      "module": "coil-core",
+      "entry": "commonMain/coil3/util/SystemCallbacks.kt",
+      "cpfPath": "coil-core/src/commonMain/kotlin/coil3/util/SystemCallbacks.kt",
+      "rawGitBlob": "4a55b2e2d4c30de82c0ab66d6e7a2a43ba81980c",
+      "cpfBlob": "4a55b2e2d4c30de82c0ab66d6e7a2a43ba81980c"
+    },
+    {
+      "module": "coil-core",
+      "entry": "commonMain/coil3/util/collections.kt",
+      "cpfPath": "coil-core/src/commonMain/kotlin/coil3/util/collections.kt",
+      "rawGitBlob": "e1a8144ec53ad95fcdc1fa868eb43690b7c2688a",
+      "cpfBlob": "e1a8144ec53ad95fcdc1fa868eb43690b7c2688a"
+    },
+    {
+      "module": "coil-core",
+      "entry": "commonMain/coil3/util/contexts.kt",
+      "cpfPath": "coil-core/src/commonMain/kotlin/coil3/util/contexts.kt",
+      "rawGitBlob": "68fe2971b6170c4a90732d6456f3816a60e97e57",
+      "cpfBlob": "68fe2971b6170c4a90732d6456f3816a60e97e57"
+    },
+    {
+      "module": "coil-core",
+      "entry": "commonMain/coil3/util/coroutines.kt",
+      "cpfPath": "coil-core/src/commonMain/kotlin/coil3/util/coroutines.kt",
+      "rawGitBlob": "21d7fb6d2c4e8a53a6462b2a5c4d4fef8b73fb42",
+      "cpfBlob": "21d7fb6d2c4e8a53a6462b2a5c4d4fef8b73fb42"
+    },
+    {
+      "module": "coil-core",
+      "entry": "commonMain/coil3/util/fileSystems.kt",
+      "cpfPath": "coil-core/src/commonMain/kotlin/coil3/util/fileSystems.kt",
+      "rawGitBlob": "96acd32363bbca4bf2f24c053d315a58de65d5af",
+      "cpfBlob": "96acd32363bbca4bf2f24c053d315a58de65d5af"
+    },
+    {
+      "module": "coil-core",
+      "entry": "commonMain/coil3/util/logging.kt",
+      "cpfPath": "coil-core/src/commonMain/kotlin/coil3/util/logging.kt",
+      "rawGitBlob": "1685d17539699b980c0e5eec494e8a9c8e1f4b59",
+      "cpfBlob": "1685d17539699b980c0e5eec494e8a9c8e1f4b59"
+    },
+    {
+      "module": "coil-core",
+      "entry": "commonMain/coil3/util/mimeTypes.kt",
+      "cpfPath": "coil-core/src/commonMain/kotlin/coil3/util/mimeTypes.kt",
+      "rawGitBlob": "0cf72dacea4be040a2862c573649fb5024f537f2",
+      "cpfBlob": "0cf72dacea4be040a2862c573649fb5024f537f2"
+    },
+    {
+      "module": "coil-core",
+      "entry": "commonMain/coil3/util/utils.kt",
+      "cpfPath": "coil-core/src/commonMain/kotlin/coil3/util/utils.kt",
+      "rawGitBlob": "36360da5602f8766fdadd0d5c489e31c0760065a",
+      "cpfBlob": "36360da5602f8766fdadd0d5c489e31c0760065a"
+    },
+    {
+      "module": "coil-core",
+      "entry": "nonAndroidMain/coil3/ColorImage.kt",
+      "cpfPath": "coil-core/src/nonAndroidMain/kotlin/coil3/ColorImage.kt",
+      "rawGitBlob": "11148bcbc4b8c211ec7e01b8e071f564be61aa96",
+      "cpfBlob": "11148bcbc4b8c211ec7e01b8e071f564be61aa96"
+    },
+    {
+      "module": "coil-core",
+      "entry": "nonAndroidMain/coil3/EventListener.kt",
+      "cpfPath": "coil-core/src/nonAndroidMain/kotlin/coil3/EventListener.kt",
+      "rawGitBlob": "f1ed63c2d8dcb32eb72656cfc573e9f66d09ac96",
+      "cpfBlob": "f1ed63c2d8dcb32eb72656cfc573e9f66d09ac96"
+    },
+    {
+      "module": "coil-core",
+      "entry": "nonAndroidMain/coil3/Image.nonAndroid.kt",
+      "cpfPath": "coil-core/src/nonAndroidMain/kotlin/coil3/Image.nonAndroid.kt",
+      "rawGitBlob": "900b928da1a7729be6e610f9571bb3ee78398619",
+      "cpfBlob": "900b928da1a7729be6e610f9571bb3ee78398619"
+    },
+    {
+      "module": "coil-core",
+      "entry": "nonAndroidMain/coil3/PlatformContext.kt",
+      "cpfPath": "coil-core/src/nonAndroidMain/kotlin/coil3/PlatformContext.kt",
+      "rawGitBlob": "f94e3b0a296ab83a5a2ece43d6cab58b8fb96c75",
+      "cpfBlob": "f94e3b0a296ab83a5a2ece43d6cab58b8fb96c75"
+    },
+    {
+      "module": "coil-core",
+      "entry": "nonAndroidMain/coil3/RealImageLoader.nonAndroid.kt",
+      "cpfPath": "coil-core/src/nonAndroidMain/kotlin/coil3/RealImageLoader.nonAndroid.kt",
+      "rawGitBlob": "263e7940fc941a2e5b7ada57088de09f512ee591",
+      "cpfBlob": "263e7940fc941a2e5b7ada57088de09f512ee591"
+    },
+    {
+      "module": "coil-core",
+      "entry": "nonAndroidMain/coil3/decode/SkiaImageDecoder.kt",
+      "cpfPath": "coil-core/src/nonAndroidMain/kotlin/coil3/decode/SkiaImageDecoder.kt",
+      "rawGitBlob": "09a846f08979072be92230bd0f851bc571acafa6",
+      "cpfBlob": "09a846f08979072be92230bd0f851bc571acafa6"
+    },
+    {
+      "module": "coil-core",
+      "entry": "nonAndroidMain/coil3/intercept/EngineInterceptor.nonAndroid.kt",
+      "cpfPath": "coil-core/src/nonAndroidMain/kotlin/coil3/intercept/EngineInterceptor.nonAndroid.kt",
+      "rawGitBlob": "f10354fd9a5ca6a6dc4f0d95b2d2c1061c7e7ed2",
+      "cpfBlob": "f10354fd9a5ca6a6dc4f0d95b2d2c1061c7e7ed2"
+    },
+    {
+      "module": "coil-core",
+      "entry": "nonAndroidMain/coil3/request/RequestService.nonAndroid.kt",
+      "cpfPath": "coil-core/src/nonAndroidMain/kotlin/coil3/request/RequestService.nonAndroid.kt",
+      "rawGitBlob": "1c981d9f116bce38b23fb71e3e158a5787c08a7e",
+      "cpfBlob": "1c981d9f116bce38b23fb71e3e158a5787c08a7e"
+    },
+    {
+      "module": "coil-core",
+      "entry": "nonAndroidMain/coil3/request/imageRequests.nonAndroid.kt",
+      "cpfPath": "coil-core/src/nonAndroidMain/kotlin/coil3/request/imageRequests.nonAndroid.kt",
+      "rawGitBlob": "bab2d40e23ea4eb398e338f6304328ba985b25fa",
+      "cpfBlob": "bab2d40e23ea4eb398e338f6304328ba985b25fa"
+    },
+    {
+      "module": "coil-core",
+      "entry": "nonAndroidMain/coil3/util/SystemCallbacks.kt",
+      "cpfPath": "coil-core/src/nonAndroidMain/kotlin/coil3/util/SystemCallbacks.kt",
+      "rawGitBlob": "0001260aafe9ea66030b0c39f3d99d8f07d717dc",
+      "cpfBlob": "0001260aafe9ea66030b0c39f3d99d8f07d717dc"
+    },
+    {
+      "module": "coil-core",
+      "entry": "nonAndroidMain/coil3/util/contexts.kt",
+      "cpfPath": "coil-core/src/nonAndroidMain/kotlin/coil3/util/contexts.kt",
+      "rawGitBlob": "e8beb19c53283bec9757beb4d7d32f6e42f5c7af",
+      "cpfBlob": "e8beb19c53283bec9757beb4d7d32f6e42f5c7af"
+    },
+    {
+      "module": "coil-core",
+      "entry": "nonAndroidMain/coil3/util/mimeTypes.nonAndroid.kt",
+      "cpfPath": "coil-core/src/nonAndroidMain/kotlin/coil3/util/mimeTypes.nonAndroid.kt",
+      "rawGitBlob": "efdeeef9f6b1688419008cdcc4b0e824b8d88cd9",
+      "cpfBlob": "efdeeef9f6b1688419008cdcc4b0e824b8d88cd9"
+    },
+    {
+      "module": "coil-core",
+      "entry": "nonAndroidMain/coil3/util/utils.nonAndroid.kt",
+      "cpfPath": "coil-core/src/nonAndroidMain/kotlin/coil3/util/utils.nonAndroid.kt",
+      "rawGitBlob": "092d82f30e11e555f3d3f1ce33b688257f0a7a3b",
+      "cpfBlob": "092d82f30e11e555f3d3f1ce33b688257f0a7a3b"
+    },
+    {
+      "module": "coil-core",
+      "entry": "nonJsCommonMain/coil3/disk/utils.kt",
+      "cpfPath": "coil-core/src/nonJsCommonMain/kotlin/coil3/disk/utils.kt",
+      "rawGitBlob": "4dcd15f6d94895c15b8c9f66157f999cd55fd93f",
+      "cpfBlob": "4dcd15f6d94895c15b8c9f66157f999cd55fd93f"
+    },
+    {
+      "module": "coil-core",
+      "entry": "nonJsCommonMain/coil3/imageLoaders.nonJsCommon.kt",
+      "cpfPath": "coil-core/src/nonJsCommonMain/kotlin/coil3/imageLoaders.nonJsCommon.kt",
+      "rawGitBlob": "55efad3c8a35e93e256c1ae0c2b4747c4a76a564",
+      "cpfBlob": "55efad3c8a35e93e256c1ae0c2b4747c4a76a564"
+    },
+    {
+      "module": "coil-core",
+      "entry": "nonJsCommonMain/coil3/util/coroutines.nonJsCommon.kt",
+      "cpfPath": "coil-core/src/nonJsCommonMain/kotlin/coil3/util/coroutines.nonJsCommon.kt",
+      "rawGitBlob": "4debfa0bdc3c5d0ab63ae5ec35c84b19669a043c",
+      "cpfBlob": "4debfa0bdc3c5d0ab63ae5ec35c84b19669a043c"
+    },
+    {
+      "module": "coil-core",
+      "entry": "nonJsCommonMain/coil3/util/fileSystems.nonJsCommon.kt",
+      "cpfPath": "coil-core/src/nonJsCommonMain/kotlin/coil3/util/fileSystems.nonJsCommon.kt",
+      "rawGitBlob": "71f6eb34a6fe967a7b3d6a14efc2deae16570a69",
+      "cpfBlob": "71f6eb34a6fe967a7b3d6a14efc2deae16570a69"
+    },
+    {
+      "module": "coil-core",
+      "entry": "nonJvmCommonMain/coil3/RealImageLoader.nonJvmCommon.kt",
+      "cpfPath": "coil-core/src/nonJvmCommonMain/kotlin/coil3/RealImageLoader.nonJvmCommon.kt",
+      "rawGitBlob": "86e7f18143bd4c14b532147bf10c2c6a01cc7521",
+      "cpfBlob": "86e7f18143bd4c14b532147bf10c2c6a01cc7521"
+    },
+    {
+      "module": "coil-core",
+      "entry": "nonJvmCommonMain/coil3/util/ServiceLoaderComponentRegistry.kt",
+      "cpfPath": "coil-core/src/nonJvmCommonMain/kotlin/coil3/util/ServiceLoaderComponentRegistry.kt",
+      "rawGitBlob": "2150177353eda1bf685131378552b2788a5d0ad6",
+      "cpfBlob": "2150177353eda1bf685131378552b2788a5d0ad6"
+    },
+    {
+      "module": "coil-core",
+      "entry": "nonJvmCommonMain/coil3/util/collections.nonJvmCommon.kt",
+      "cpfPath": "coil-core/src/nonJvmCommonMain/kotlin/coil3/util/collections.nonJvmCommon.kt",
+      "rawGitBlob": "cb4e12bf8d05411e048f70fc7da519ea764e85c6",
+      "cpfBlob": "cb4e12bf8d05411e048f70fc7da519ea764e85c6"
+    },
+    {
+      "module": "coil-core",
+      "entry": "nonJvmCommonMain/coil3/util/fileSystems.nonJvmCommon.kt",
+      "cpfPath": "coil-core/src/nonJvmCommonMain/kotlin/coil3/util/fileSystems.nonJvmCommon.kt",
+      "rawGitBlob": "7b32aa9059138b4e12578884152303770afb7fb3",
+      "cpfBlob": "7b32aa9059138b4e12578884152303770afb7fb3"
+    },
+    {
+      "module": "coil-core",
+      "entry": "ohosArm64Main/coil3/RealImageLoader.ohosArm64.kt",
+      "cpfPath": "coil-core/src/ohosArm64Main/kotlin/coil3/RealImageLoader.ohosArm64.kt",
+      "rawGitBlob": "c23febb908914cf4848be04764b6fd3fde06a106",
+      "cpfBlob": "c23febb908914cf4848be04764b6fd3fde06a106"
+    },
+    {
+      "module": "coil-core",
+      "entry": "ohosArm64Main/coil3/decode/OhosNativeDmaDecoder.kt",
+      "cpfPath": "coil-core/src/ohosArm64Main/kotlin/coil3/decode/OhosNativeDmaDecoder.kt",
+      "rawGitBlob": "2441daf2a2baf9309367ad01a9d59915c3d29a73",
+      "cpfBlob": "2441daf2a2baf9309367ad01a9d59915c3d29a73"
+    },
+    {
+      "module": "coil-core",
+      "entry": "ohosArm64Main/coil3/util/utils.ohosArm64.kt",
+      "cpfPath": "coil-core/src/ohosArm64Main/kotlin/coil3/util/utils.ohosArm64.kt",
+      "rawGitBlob": "cdb6ffb22681bff827cacd3700ef3a9c77a041e2",
+      "cpfBlob": "cdb6ffb22681bff827cacd3700ef3a9c77a041e2"
+    },
+    {
+      "module": "coil-compose-core",
+      "entry": "commonMain/coil3/compose/AsyncImage.kt",
+      "cpfPath": "coil-compose-core/src/commonMain/kotlin/coil3/compose/AsyncImage.kt",
+      "rawGitBlob": "4c03aa263118b9b2a933047f2a57b29e6c1a3c96",
+      "cpfBlob": "4c03aa263118b9b2a933047f2a57b29e6c1a3c96"
+    },
+    {
+      "module": "coil-compose-core",
+      "entry": "commonMain/coil3/compose/AsyncImagePainter.kt",
+      "cpfPath": "coil-compose-core/src/commonMain/kotlin/coil3/compose/AsyncImagePainter.kt",
+      "rawGitBlob": "cba0f4af178879eddc1d59e4c5397b402b738e2e",
+      "cpfBlob": "cba0f4af178879eddc1d59e4c5397b402b738e2e"
+    },
+    {
+      "module": "coil-compose-core",
+      "entry": "commonMain/coil3/compose/ConstraintsSizeResolver.kt",
+      "cpfPath": "coil-compose-core/src/commonMain/kotlin/coil3/compose/ConstraintsSizeResolver.kt",
+      "rawGitBlob": "8c0f2a13ab23c096db46b04aae848d44d8ecc1fa",
+      "cpfBlob": "8c0f2a13ab23c096db46b04aae848d44d8ecc1fa"
+    },
+    {
+      "module": "coil-compose-core",
+      "entry": "commonMain/coil3/compose/CrossfadePainter.kt",
+      "cpfPath": "coil-compose-core/src/commonMain/kotlin/coil3/compose/CrossfadePainter.kt",
+      "rawGitBlob": "bc1c2e23a2591ec3508a48b499848b6ed366f8af",
+      "cpfBlob": "bc1c2e23a2591ec3508a48b499848b6ed366f8af"
+    },
+    {
+      "module": "coil-compose-core",
+      "entry": "commonMain/coil3/compose/DrawScopeSizeResolver.kt",
+      "cpfPath": "coil-compose-core/src/commonMain/kotlin/coil3/compose/DrawScopeSizeResolver.kt",
+      "rawGitBlob": "e72cbd876d67b87d19ec465364a72dc863feaf39",
+      "cpfBlob": "e72cbd876d67b87d19ec465364a72dc863feaf39"
+    },
+    {
+      "module": "coil-compose-core",
+      "entry": "commonMain/coil3/compose/ImagePainter.kt",
+      "cpfPath": "coil-compose-core/src/commonMain/kotlin/coil3/compose/ImagePainter.kt",
+      "rawGitBlob": "ef3578f9ad482d5872b892db0e67238c235c1c8f",
+      "cpfBlob": "ef3578f9ad482d5872b892db0e67238c235c1c8f"
+    },
+    {
+      "module": "coil-compose-core",
+      "entry": "commonMain/coil3/compose/LocalAsyncImageModelEqualityDelegate.kt",
+      "cpfPath": "coil-compose-core/src/commonMain/kotlin/coil3/compose/LocalAsyncImageModelEqualityDelegate.kt",
+      "rawGitBlob": "4eb38def50805b94753b6bbe7ed912652f989530",
+      "cpfBlob": "4eb38def50805b94753b6bbe7ed912652f989530"
+    },
+    {
+      "module": "coil-compose-core",
+      "entry": "commonMain/coil3/compose/LocalAsyncImagePreviewHandler.kt",
+      "cpfPath": "coil-compose-core/src/commonMain/kotlin/coil3/compose/LocalAsyncImagePreviewHandler.kt",
+      "rawGitBlob": "9eb2f1cc5df1c5e9fe0df211c9084df8f82a92c0",
+      "cpfBlob": "9eb2f1cc5df1c5e9fe0df211c9084df8f82a92c0"
+    },
+    {
+      "module": "coil-compose-core",
+      "entry": "commonMain/coil3/compose/LocalPlatformContext.kt",
+      "cpfPath": "coil-compose-core/src/commonMain/kotlin/coil3/compose/LocalPlatformContext.kt",
+      "rawGitBlob": "a1ac65b9e4efd31c4ad38516a5c7595b50dc998a",
+      "cpfBlob": "a1ac65b9e4efd31c4ad38516a5c7595b50dc998a"
+    },
+    {
+      "module": "coil-compose-core",
+      "entry": "commonMain/coil3/compose/SubcomposeAsyncImage.kt",
+      "cpfPath": "coil-compose-core/src/commonMain/kotlin/coil3/compose/SubcomposeAsyncImage.kt",
+      "rawGitBlob": "df1a505b38951a614b06ddebb7e816f26bcb358a",
+      "cpfBlob": "df1a505b38951a614b06ddebb7e816f26bcb358a"
+    },
+    {
+      "module": "coil-compose-core",
+      "entry": "commonMain/coil3/compose/internal/ContentPainterModifier.kt",
+      "cpfPath": "coil-compose-core/src/commonMain/kotlin/coil3/compose/internal/ContentPainterModifier.kt",
+      "rawGitBlob": "b5086ca77f132842290a3fbf058e50f0a389a786",
+      "cpfBlob": "b5086ca77f132842290a3fbf058e50f0a389a786"
+    },
+    {
+      "module": "coil-compose-core",
+      "entry": "commonMain/coil3/compose/internal/DeferredDispatch.kt",
+      "cpfPath": "coil-compose-core/src/commonMain/kotlin/coil3/compose/internal/DeferredDispatch.kt",
+      "rawGitBlob": "70e8a211f862c3b8c0de84b00f673d098718f639",
+      "cpfBlob": "70e8a211f862c3b8c0de84b00f673d098718f639"
+    },
+    {
+      "module": "coil-compose-core",
+      "entry": "commonMain/coil3/compose/internal/ForwardingCoroutineContext.kt",
+      "cpfPath": "coil-compose-core/src/commonMain/kotlin/coil3/compose/internal/ForwardingCoroutineContext.kt",
+      "rawGitBlob": "1e8fc6417a72c084cc683ecb7b9b13adf9bddf19",
+      "cpfBlob": "1e8fc6417a72c084cc683ecb7b9b13adf9bddf19"
+    },
+    {
+      "module": "coil-compose-core",
+      "entry": "commonMain/coil3/compose/internal/utils.kt",
+      "cpfPath": "coil-compose-core/src/commonMain/kotlin/coil3/compose/internal/utils.kt",
+      "rawGitBlob": "93455dc1af3d742eaa16ce456bbc9a72b16e938a",
+      "cpfBlob": "93455dc1af3d742eaa16ce456bbc9a72b16e938a"
+    },
+    {
+      "module": "coil-compose-core",
+      "entry": "nonAndroidMain/coil3/compose/AsyncImagePainter.nonAndroid.kt",
+      "cpfPath": "coil-compose-core/src/nonAndroidMain/kotlin/coil3/compose/AsyncImagePainter.nonAndroid.kt",
+      "rawGitBlob": "c8de794851d689145eb0dc29ab260eda965c9683",
+      "cpfBlob": "c8de794851d689145eb0dc29ab260eda965c9683"
+    },
+    {
+      "module": "coil-compose-core",
+      "entry": "nonAndroidMain/coil3/compose/ImagePainter.nonAndroid.kt",
+      "cpfPath": "coil-compose-core/src/nonAndroidMain/kotlin/coil3/compose/ImagePainter.nonAndroid.kt",
+      "rawGitBlob": "7c217c564726722005f23dee3309da92b2188d71",
+      "cpfBlob": "7c217c564726722005f23dee3309da92b2188d71"
+    },
+    {
+      "module": "coil-compose-core",
+      "entry": "nonAndroidMain/coil3/compose/LocalPlatformContext.nonAndroid.kt",
+      "cpfPath": "coil-compose-core/src/nonAndroidMain/kotlin/coil3/compose/LocalPlatformContext.nonAndroid.kt",
+      "rawGitBlob": "9dba650ef664a0dde8fcc68538a912143c0638bf",
+      "cpfBlob": "9dba650ef664a0dde8fcc68538a912143c0638bf"
+    },
+    {
+      "module": "coil-compose-core",
+      "entry": "nonAndroidMain/coil3/compose/internal/utils.nonAndroid.kt",
+      "cpfPath": "coil-compose-core/src/nonAndroidMain/kotlin/coil3/compose/internal/utils.nonAndroid.kt",
+      "rawGitBlob": "0fa17d7a6677e431f9c3addc0e049202c370e4c8",
+      "cpfBlob": "0fa17d7a6677e431f9c3addc0e049202c370e4c8"
+    },
+    {
+      "module": "coil-network-core",
+      "entry": "commonMain/coil3/network/CacheNetworkResponse.kt",
+      "cpfPath": "coil-network-core/src/commonMain/kotlin/coil3/network/CacheNetworkResponse.kt",
+      "rawGitBlob": "cb081f4120c008ee31a41720ca4fb42dd62cc242",
+      "cpfBlob": "cb081f4120c008ee31a41720ca4fb42dd62cc242"
+    },
+    {
+      "module": "coil-network-core",
+      "entry": "commonMain/coil3/network/CacheStrategy.kt",
+      "cpfPath": "coil-network-core/src/commonMain/kotlin/coil3/network/CacheStrategy.kt",
+      "rawGitBlob": "d19d5d1e69199192f7d4a91e8e21ceed353827c4",
+      "cpfBlob": "d19d5d1e69199192f7d4a91e8e21ceed353827c4"
+    },
+    {
+      "module": "coil-network-core",
+      "entry": "commonMain/coil3/network/ConnectivityChecker.kt",
+      "cpfPath": "coil-network-core/src/commonMain/kotlin/coil3/network/ConnectivityChecker.kt",
+      "rawGitBlob": "135c74df99474338f1de5f9218596213295cf815",
+      "cpfBlob": "135c74df99474338f1de5f9218596213295cf815"
+    },
+    {
+      "module": "coil-network-core",
+      "entry": "commonMain/coil3/network/HttpException.kt",
+      "cpfPath": "coil-network-core/src/commonMain/kotlin/coil3/network/HttpException.kt",
+      "rawGitBlob": "e0b68a07884c654f127f5bbfb83132984333d3d8",
+      "cpfBlob": "e0b68a07884c654f127f5bbfb83132984333d3d8"
+    },
+    {
+      "module": "coil-network-core",
+      "entry": "commonMain/coil3/network/NetworkClient.kt",
+      "cpfPath": "coil-network-core/src/commonMain/kotlin/coil3/network/NetworkClient.kt",
+      "rawGitBlob": "5d700e03fc3c4bab2967197b09f56f73b162c22f",
+      "cpfBlob": "5d700e03fc3c4bab2967197b09f56f73b162c22f"
+    },
+    {
+      "module": "coil-network-core",
+      "entry": "commonMain/coil3/network/NetworkFetcher.kt",
+      "cpfPath": "coil-network-core/src/commonMain/kotlin/coil3/network/NetworkFetcher.kt",
+      "rawGitBlob": "e05dac67447c0577159b483df50d81efca2a7d3d",
+      "cpfBlob": "e05dac67447c0577159b483df50d81efca2a7d3d"
+    },
+    {
+      "module": "coil-network-core",
+      "entry": "commonMain/coil3/network/NetworkHeaders.kt",
+      "cpfPath": "coil-network-core/src/commonMain/kotlin/coil3/network/NetworkHeaders.kt",
+      "rawGitBlob": "08c730ced463eafd7f7aa71249bd41581d950c52",
+      "cpfBlob": "08c730ced463eafd7f7aa71249bd41581d950c52"
+    },
+    {
+      "module": "coil-network-core",
+      "entry": "commonMain/coil3/network/imageRequests.kt",
+      "cpfPath": "coil-network-core/src/commonMain/kotlin/coil3/network/imageRequests.kt",
+      "rawGitBlob": "d26efd7420c59f9567a58808604261e1e12cbbaa",
+      "cpfBlob": "d26efd7420c59f9567a58808604261e1e12cbbaa"
+    },
+    {
+      "module": "coil-network-core",
+      "entry": "commonMain/coil3/network/internal/SingleParameterLazy.kt",
+      "cpfPath": "coil-network-core/src/commonMain/kotlin/coil3/network/internal/SingleParameterLazy.kt",
+      "rawGitBlob": "cf35e0303b32fcb1630b0046ab2d67506351fcd3",
+      "cpfBlob": "cf35e0303b32fcb1630b0046ab2d67506351fcd3"
+    },
+    {
+      "module": "coil-network-core",
+      "entry": "commonMain/coil3/network/internal/utils.kt",
+      "cpfPath": "coil-network-core/src/commonMain/kotlin/coil3/network/internal/utils.kt",
+      "rawGitBlob": "0d0ae38e45d90df639cd119fe23e02cf4afcb426",
+      "cpfBlob": "0d0ae38e45d90df639cd119fe23e02cf4afcb426"
+    },
+    {
+      "module": "coil-network-core",
+      "entry": "nonAndroidMain/coil3/network/ConnectivityChecker.kt",
+      "cpfPath": "coil-network-core/src/nonAndroidMain/kotlin/coil3/network/ConnectivityChecker.kt",
+      "rawGitBlob": "2f36c407d45fbf606576c8503547ed1d5330ee27",
+      "cpfBlob": "2f36c407d45fbf606576c8503547ed1d5330ee27"
+    },
+    {
+      "module": "coil-network-core",
+      "entry": "nonAndroidMain/coil3/network/internal/utils.nonAndroid.kt",
+      "cpfPath": "coil-network-core/src/nonAndroidMain/kotlin/coil3/network/internal/utils.nonAndroid.kt",
+      "rawGitBlob": "aa382e7f9f3ad5672d8d88191a5c77117094a1c5",
+      "cpfBlob": "aa382e7f9f3ad5672d8d88191a5c77117094a1c5"
+    },
+    {
+      "module": "coil-compose",
+      "entry": "commonMain/coil3/compose/SingletonAsyncImage.kt",
+      "cpfPath": "coil-compose/src/commonMain/kotlin/coil3/compose/SingletonAsyncImage.kt",
+      "rawGitBlob": "8e2101b737d4c48999476962f41ad615044e7ad0",
+      "cpfBlob": "8e2101b737d4c48999476962f41ad615044e7ad0"
+    },
+    {
+      "module": "coil-compose",
+      "entry": "commonMain/coil3/compose/SingletonAsyncImagePainter.kt",
+      "cpfPath": "coil-compose/src/commonMain/kotlin/coil3/compose/SingletonAsyncImagePainter.kt",
+      "rawGitBlob": "104f8a51600665a160d829a985df6c878c144b66",
+      "cpfBlob": "104f8a51600665a160d829a985df6c878c144b66"
+    },
+    {
+      "module": "coil-compose",
+      "entry": "commonMain/coil3/compose/SingletonSubcomposeAsyncImage.kt",
+      "cpfPath": "coil-compose/src/commonMain/kotlin/coil3/compose/SingletonSubcomposeAsyncImage.kt",
+      "rawGitBlob": "63b923555af87a58abcc5b4e642bf07a985e4e94",
+      "cpfBlob": "63b923555af87a58abcc5b4e642bf07a985e4e94"
+    },
+    {
+      "module": "coil-compose",
+      "entry": "commonMain/coil3/compose/singletonImageLoaders.kt",
+      "cpfPath": "coil-compose/src/commonMain/kotlin/coil3/compose/singletonImageLoaders.kt",
+      "rawGitBlob": "3fe290c3241530da437244c8917c8640bf817e61",
+      "cpfBlob": "3fe290c3241530da437244c8917c8640bf817e61"
+    },
+    {
+      "module": "coil",
+      "entry": "commonMain/coil3/SingletonImageLoader.kt",
+      "cpfPath": "coil/src/commonMain/kotlin/coil3/SingletonImageLoader.kt",
+      "rawGitBlob": "93580909d2944a4c10b694d0fc88576d97f9b181",
+      "cpfBlob": "93580909d2944a4c10b694d0fc88576d97f9b181"
+    },
+    {
+      "module": "coil",
+      "entry": "nonAndroidMain/coil3/SingletonImageLoader.nonAndroid.kt",
+      "cpfPath": "coil/src/nonAndroidMain/kotlin/coil3/SingletonImageLoader.nonAndroid.kt",
+      "rawGitBlob": "5b87d4af8f04d6d14452a30390a327e9f09d2d8e",
+      "cpfBlob": "5b87d4af8f04d6d14452a30390a327e9f09d2d8e"
+    },
+    {
+      "module": "coil-network-ktor3",
+      "entry": "commonMain/coil3/network/ktor3/KtorNetworkFetcher.kt",
+      "cpfPath": "coil-network-ktor3/src/commonMain/kotlin/coil3/network/ktor3/KtorNetworkFetcher.kt",
+      "rawGitBlob": "48e21098e697054a90bad1dfdcf61028041d0735",
+      "cpfBlob": "48e21098e697054a90bad1dfdcf61028041d0735"
+    },
+    {
+      "module": "coil-network-ktor3",
+      "entry": "commonMain/coil3/network/ktor3/internal/KtorNetworkFetcherServiceLoaderTarget.kt",
+      "cpfPath": "coil-network-ktor3/src/commonMain/kotlin/coil3/network/ktor3/internal/KtorNetworkFetcherServiceLoaderTarget.kt",
+      "rawGitBlob": "0be889edd0537d2a1f536ce753001fc615eb73d8",
+      "cpfBlob": "0be889edd0537d2a1f536ce753001fc615eb73d8"
+    },
+    {
+      "module": "coil-network-ktor3",
+      "entry": "commonMain/coil3/network/ktor3/internal/utils.kt",
+      "cpfPath": "coil-network-ktor3/src/commonMain/kotlin/coil3/network/ktor3/internal/utils.kt",
+      "rawGitBlob": "db5558f1d3e969d5c89d25ced30328a815506c09",
+      "cpfBlob": "db5558f1d3e969d5c89d25ced30328a815506c09"
+    },
+    {
+      "module": "coil-network-ktor3",
+      "entry": "nonJvmCommonMain/coil3/network/ktor3/internal/utils.nonJvmCommon.kt",
+      "cpfPath": "coil-network-ktor3/src/nonJvmCommonMain/kotlin/coil3/network/ktor3/internal/utils.nonJvmCommon.kt",
+      "rawGitBlob": "d399a5c7609024f6a48cd2a3ad60edae00a10c97",
+      "cpfBlob": "d399a5c7609024f6a48cd2a3ad60edae00a10c97"
+    },
+    {
+      "module": "coil-network-ktor3",
+      "entry": "ohosArm64Main/coil3/network/ktor3/internal/KtorNetworkFetcherServiceLoaderTarget.ohosArm64.kt",
+      "cpfPath": "coil-network-ktor3/src/ohosArm64Main/kotlin/coil3/network/ktor3/internal/KtorNetworkFetcherServiceLoaderTarget.ohosArm64.kt",
+      "rawGitBlob": "6ed9aed85238b4876e4bfca4369b9c84e82cce9e",
+      "cpfBlob": "6ed9aed85238b4876e4bfca4369b9c84e82cce9e"
+    },
+    {
+      "module": "coil-svg",
+      "entry": "commonMain/coil3/svg/Svg.kt",
+      "cpfPath": "coil-svg/src/commonMain/kotlin/coil3/svg/Svg.kt",
+      "rawGitBlob": "899aa0a553c6235610c69190836390e9a2fb7ab0",
+      "cpfBlob": "899aa0a553c6235610c69190836390e9a2fb7ab0"
+    },
+    {
+      "module": "coil-svg",
+      "entry": "commonMain/coil3/svg/SvgDecoder.kt",
+      "cpfPath": "coil-svg/src/commonMain/kotlin/coil3/svg/SvgDecoder.kt",
+      "rawGitBlob": "e2370e45936f611c53965857c6831e823cffed92",
+      "cpfBlob": "e2370e45936f611c53965857c6831e823cffed92"
+    },
+    {
+      "module": "coil-svg",
+      "entry": "commonMain/coil3/svg/decodeUtils.kt",
+      "cpfPath": "coil-svg/src/commonMain/kotlin/coil3/svg/decodeUtils.kt",
+      "rawGitBlob": "7905590ef332c175e94a34cc325a2b20a475cfa5",
+      "cpfBlob": "7905590ef332c175e94a34cc325a2b20a475cfa5"
+    },
+    {
+      "module": "coil-svg",
+      "entry": "commonMain/coil3/svg/internal/SvgDecoderServiceLoaderTarget.kt",
+      "cpfPath": "coil-svg/src/commonMain/kotlin/coil3/svg/internal/SvgDecoderServiceLoaderTarget.kt",
+      "rawGitBlob": "2e5de1d4c80756ace9265ba219108d590aa7ea05",
+      "cpfBlob": "2e5de1d4c80756ace9265ba219108d590aa7ea05"
+    },
+    {
+      "module": "coil-svg",
+      "entry": "commonMain/coil3/svg/internal/parseSvg.kt",
+      "cpfPath": "coil-svg/src/commonMain/kotlin/coil3/svg/internal/parseSvg.kt",
+      "rawGitBlob": "c2228d229b7bee34a226e4a70cc5eb72501e470f",
+      "cpfBlob": "c2228d229b7bee34a226e4a70cc5eb72501e470f"
+    },
+    {
+      "module": "coil-svg",
+      "entry": "commonMain/coil3/svg/internal/utils.kt",
+      "cpfPath": "coil-svg/src/commonMain/kotlin/coil3/svg/internal/utils.kt",
+      "rawGitBlob": "4fa60f97dba4229d6664f05293bbf4776188ea48",
+      "cpfBlob": "4fa60f97dba4229d6664f05293bbf4776188ea48"
+    },
+    {
+      "module": "coil-svg",
+      "entry": "nativeMain/coil3/svg/internal/SvgDecoderServiceLoaderTarget.native.kt",
+      "cpfPath": "coil-svg/src/nativeMain/kotlin/coil3/svg/internal/SvgDecoderServiceLoaderTarget.native.kt",
+      "rawGitBlob": "fb7c1095ecda7f475baeb6dae493cf95efca16c4",
+      "cpfBlob": "fb7c1095ecda7f475baeb6dae493cf95efca16c4"
+    },
+    {
+      "module": "coil-svg",
+      "entry": "nonAndroidMain/coil3/svg/SvgImage.nonAndroid.kt",
+      "cpfPath": "coil-svg/src/nonAndroidMain/kotlin/coil3/svg/SvgImage.nonAndroid.kt",
+      "rawGitBlob": "f9cf9af17af4710a1332ab9a1f804b351c482ee4",
+      "cpfBlob": "f9cf9af17af4710a1332ab9a1f804b351c482ee4"
+    },
+    {
+      "module": "coil-svg",
+      "entry": "nonAndroidMain/coil3/svg/internal/parseSvg.nonAndroid.kt",
+      "cpfPath": "coil-svg/src/nonAndroidMain/kotlin/coil3/svg/internal/parseSvg.nonAndroid.kt",
+      "rawGitBlob": "222d180265e478b4d610a666bc3bead1344445c4",
+      "cpfBlob": "222d180265e478b4d610a666bc3bead1344445c4"
+    },
+    {
+      "module": "coil-svg",
+      "entry": "nonAndroidMain/coil3/svg/internal/utils.nonAndroid.kt",
+      "cpfPath": "coil-svg/src/nonAndroidMain/kotlin/coil3/svg/internal/utils.nonAndroid.kt",
+      "rawGitBlob": "f44f079631aa19c7c816b174d4f4db118434e357",
+      "cpfBlob": "f44f079631aa19c7c816b174d4f4db118434e357"
+    },
+    {
+      "module": "coil-svg",
+      "entry": "nonJvmCommonMain/coil3/svg/internal/utils.nonJvmCommon.kt",
+      "cpfPath": "coil-svg/src/nonJvmCommonMain/kotlin/coil3/svg/internal/utils.nonJvmCommon.kt",
+      "rawGitBlob": "b6376eb193af15392456322454dac09292bc4c58",
+      "cpfBlob": "b6376eb193af15392456322454dac09292bc4c58"
+    }
+  ],
+  "different": [],
+  "missing": [],
+  "publishedBuildCommit": "UNKNOWN"
+}
