@@ -8,6 +8,9 @@
 鸿蒙输入来自 CPF 已发布的 `3.3.0-1.1.0-02` 七个 sources 包：其原始源码 Git 提交和原构建
 工程未知，不能视为上述上游 Git 提交。`source-inputs.json` 列明每个包 URL、SHA-256 和全部
 145 份编译源码的逐文件身份；与上游 Git 对照为 135 份一致、6 份不同、4 份鸿蒙新增。
+其中 134 份不需改动的实际编译输入直接从 Fork 当前提交的上游路径读取 Git blob；
+`ohos/sources/` 中保留所有冻结副本以便追溯，只有 11 份鸿蒙差异文件作为实际构建覆盖。
+后续合并上游时，如果输入字节与冻结清单不同，构建会要求先审查并更新映射，不会静默切换源码。
 已批准的唯一额外源码差异是 `coil-core/nonJsCommonMain/coil3/imageLoaders.nonJsCommon.kt`
 删除 `@file:JvmName` 首行；`source-patch.json` 及 `provenance/original/` 保留原始字节与差异。
 上游 Apache-2.0 许可证保留在 `legal/LICENSE` 并随制品发布。

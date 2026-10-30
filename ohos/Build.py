@@ -49,23 +49,35 @@ def check_source(source_sha):
     info = read(ROOT / "source-inputs.json")
     require(len(info["sources"]) == 145 and len(info["archives"]) == 7, "源码数不符")
     require(info["cpfSourceGitCommit"] == "UNKNOWN", "发布源码提交身份不符")
+    payloads = {}
     for row in info["sources"]:
-        data = path_safe(ROOT, row["path"]).read_bytes()
+        snapshot = path_safe(ROOT, row["path"]).read_bytes()
+        if row["buildSource"] == "UPSTREAM_GIT_BLOB":
+            require(row["upstreamPath"], "上游源码映射不符")
+            require((len(snapshot), sha(snapshot)) == (row["snapshotSize"], row["snapshotSha256"]),
+                    "冻结副本摘要不符：" + row["path"])
+            data = subprocess.check_output(["git", "-C", str(repository), "show", "HEAD:" + row["upstreamPath"]])
+        else:
+            require(row["buildSource"] == "FORK_OHOS_OVERLAY", "未知源码来源")
+            data = snapshot
         require((len(data), sha(data)) == (row["compiledSize"], row["compiledSha256"]),
-                "源码摘要不符：" + row["path"])
+                "编译源码已变化，需要重新评估：" + row["path"])
+        payloads[(row["module"], row["entry"])] = data
+    require(sum(row["buildSource"] == "UPSTREAM_GIT_BLOB" for row in info["sources"]) == 134,
+            "上游源码映射数不符")
     license_bytes = (ROOT / "legal/LICENSE").read_bytes()
     require(sha(license_bytes) == "5ade6484903351f6661e791504c50ad1a24cab3a75950c1b2a7be3eb336b6ba9", "许可证摘要不符")
-    return info
+    return info, payloads
 
 
-def prepare(work, fingerprint, info, cfg):
+def prepare(work, fingerprint, info, cfg, payloads):
     work.mkdir(parents=True, exist_ok=False)
     raw_rows, compiled_rows = [], []
     for row in info["sources"]:
-        source = path_safe(ROOT, row["path"])
         destination = path_safe(work, "compiled/" + row["module"] + "/" + row["entry"])
         destination.parent.mkdir(parents=True, exist_ok=True)
-        shutil.copyfile(source, destination)
+        with destination.open("xb") as stream:
+            stream.write(payloads[(row["module"], row["entry"])])
         common = {"module": row["module"], "entry": row["entry"], "sourceSet": row["sourceSet"]}
         raw_rows.append(common | {"sha256": row["originalSha256"], "size": row["originalSize"]})
         compiled_rows.append(common | {"path": str(destination), "sha256": row["compiledSha256"],
@@ -239,14 +251,14 @@ def main():
     parser.add_argument("--native-home", type=Path, required=True)
     args = parser.parse_args()
     require(args.run_id.isdecimal() and args.run_attempt.isdecimal(), "CI 标识不符")
-    info = check_source(args.source_sha)
+    info, payloads = check_source(args.source_sha)
     cfg = read(ROOT / "port-config.json")
     version = "3.3.0-cpf11-preview-" + args.source_sha[:12] + "-" + args.run_id + "-" + args.run_attempt
     fingerprint = sha((args.source_sha + ":" + version + ":" + sha((ROOT / "source-inputs.json").read_bytes())).encode())
     work = args.work.resolve()
     native = args.native_home.resolve()
     require(native.is_dir() and not work.exists(), "Native 工具缺失或工作目录已存在")
-    prepare(work, fingerprint, info, cfg)
+    prepare(work, fingerprint, info, cfg, payloads)
     write(work / "identity.json", {"sourceSha": args.source_sha, "version": version, "fingerprint": fingerprint})
     gradle(work, native, fingerprint, version, "recordResolvedDependencies")
     verify_resolve(work, fingerprint, version, cfg)
