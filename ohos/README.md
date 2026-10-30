@@ -23,6 +23,8 @@ group 为 `io.github.qsxs.cpf.coil`，预览版本带源码 commit 和 CI 运行
 `Build.py` 要求干净源码提交、新的隔离工作目录、预先安装的 `.08` Native 工具目录和 JDK 17。
 它校验来源、解析完整模块图和 Poko 插件，执行七模块 metadata、OHOS x64/arm64 编译，随后
 校验 21 个 Maven 组件的元数据、源码、许可证和 Native KLIB，再输出到工作目录下的 `maven/`。
+若 Gradle 的最终失败原因为连接/读取超时、连接重置或明确的临时 HTTP 错误，构建在同一工作目录
+保留每次日志并重试，复用已下载内容；编译错误、缺少制品或摘要错误直接失败。
 示例：
 
 ```sh

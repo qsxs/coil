@@ -7,6 +7,7 @@ from pathlib import Path
 import shutil
 import subprocess
 import sys
+import time
 import xml.etree.ElementTree as ET
 import zipfile
 
@@ -91,6 +92,17 @@ def prepare(work, fingerprint, info, cfg, payloads):
     shutil.copyfile(ROOT / "legal/LICENSE", legal)
 
 
+def transient_network_failure(text):
+    retryable = ("connect timed out", "read timed out", "connection reset", "connection refused",
+                 "temporary failure in name resolution", "remote host terminated the handshake",
+                 "status code 429", "status code 500", "status code 502", "status code 503", "status code 504")
+    if "* What went wrong:" not in text:
+        return False
+    failure = text.rsplit("* What went wrong:", 1)[-1].split("* Try:", 1)[0].lower()
+    nonretryable = ("compilation error", "compilation failed", "unresolved reference", "could not find", "checksum mismatch")
+    return not any(reason in failure for reason in nonretryable) and any(reason in failure for reason in retryable)
+
+
 def gradle(work, native, fingerprint, version, task):
     wrapper = ROOT / ("gradlew.bat" if os.name == "nt" else "gradlew")
     command = [str(wrapper), "-PportWork=" + str(work), "-PportFingerprint=" + fingerprint,
@@ -99,13 +111,22 @@ def gradle(work, native, fingerprint, version, task):
     env = os.environ.copy()
     env["GRADLE_USER_HOME"] = str(work / "gradle-home")
     env["KONAN_DATA_DIR"] = str(work / "konan")
-    log = work / "logs" / (task + ".log")
-    log.parent.mkdir(parents=True, exist_ok=True)
-    print("执行 " + task, flush=True)
-    with log.open("x", encoding="utf-8") as stream:
-        result = subprocess.run(command, cwd=ROOT, env=env, stdout=stream, stderr=subprocess.STDOUT, check=False)
-    print(task + " exit=" + str(result.returncode), flush=True)
-    require(result.returncode == 0, "Gradle 阶段失败：" + task)
+    attempt = 1
+    while True:
+        log = work / "logs" / (task + ".attempt-" + str(attempt) + ".log")
+        log.parent.mkdir(parents=True, exist_ok=True)
+        print("执行 " + task + "，第 " + str(attempt) + " 次", flush=True)
+        with log.open("x", encoding="utf-8") as stream:
+            result = subprocess.run(command, cwd=ROOT, env=env, stdout=stream, stderr=subprocess.STDOUT, check=False)
+        print(task + " exit=" + str(result.returncode), flush=True)
+        if result.returncode == 0:
+            return
+        text = log.read_text(encoding="utf-8", errors="replace")
+        if not transient_network_failure(text):
+            raise RuntimeError("Gradle 阶段失败：" + task + "；日志：" + str(log))
+        print("依赖传输暂时失败，保留本轮缓存与日志后重试：" + task, flush=True)
+        time.sleep(min(attempt * 2, 30))
+        attempt += 1
 
 
 def verify_resolve(work, fingerprint, version, cfg):
