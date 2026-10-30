@@ -367,7 +367,7 @@ gradle.projectsEvaluated {
                 val data = mapOf("kind" to metadataTools.getValue("producer"), "module" to child.name,
                     "task" to path, "exitCode" to executionResult.get().exitValue,
                     "mainClass" to mainClass.get(), "compilerVersion" to metadataTools.getValue("compilerVersion"),
-                    "javaExecutable" to executable, "launcherArguments" to args,
+                    "javaExecutable" to javaLauncher.get().executablePath.asFile.absolutePath, "launcherArguments" to args,
                     "sourceManifestSha256" to sha(portWork.resolve("source-manifest.json")),
                     "compiledSourceManifestSha256" to sha(portWork.resolve("compiled-source-manifest.json")),
                     "sourceVariant" to cfg.getValue("sourceVariant"),

@@ -107,7 +107,7 @@ def gradle(work, native, fingerprint, version, task):
     wrapper = ROOT / ("gradlew.bat" if os.name == "nt" else "gradlew")
     command = [str(wrapper), "-PportWork=" + str(work), "-PportFingerprint=" + fingerprint,
                "-PportVersion=" + version, "-Pkotlin.native.home=" + str(native),
-               "--project-cache-dir", str(work / "project-cache"), "--console=plain", task]
+               "--project-cache-dir", str(work / "project-cache"), "--console=plain", "--stacktrace", task]
     env = os.environ.copy()
     env["GRADLE_USER_HOME"] = str(work / "gradle-home")
     env["KONAN_DATA_DIR"] = str(work / "konan")
